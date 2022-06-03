@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/* A print statment using printf */
+/**
+ *  A print statment using printf 
+ */
 
 int main(void)
 {
