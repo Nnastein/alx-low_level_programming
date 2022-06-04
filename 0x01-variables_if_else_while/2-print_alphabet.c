@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-/**
- *  This is the main function 
+/** main - print the letters of the alphabet
+ *
+ * Description: print the letters of the alphabet
+ *
+ * Return: Alwyas 0 (Success)
  */
 
 int main(void)
