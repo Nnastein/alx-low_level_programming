@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/* This is the main function */
+/**
+ *  This is the main function 
+ */
 
 int main(void)
 {
@@ -10,6 +12,6 @@ int main(void)
 		putchar(i);
 		i++;
 	}
-	putchar(i);
+	putchar(10);
 	return (0);
 }
