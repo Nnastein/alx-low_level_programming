@@ -18,8 +18,8 @@ int main(void)
 		if (i != 57)
 		{
 			putchar(44);
+			putchar(32);
 		}
-		putchar(32);
 		i++;
 	}
 	return (0);
