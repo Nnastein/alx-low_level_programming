@@ -14,14 +14,13 @@ int main(void)
 
 	while (i < 58)
 	{
+		putchar(i);
 		if (i != 57)
 		{
-			putchar(i);
 			putchar(44);
 		}
 		else
 		{
-			putchar(i);
 			putchar(36);
 		}
 		putchar(32);
