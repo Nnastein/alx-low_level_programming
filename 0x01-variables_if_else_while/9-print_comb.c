@@ -19,10 +19,6 @@ int main(void)
 		{
 			putchar(44);
 		}
-		else
-		{
-			putchar(36);
-		}
 		putchar(32);
 		i++;
 	}
