@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- *  A print statement using puts 
+ * main A print statement using puts
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
