@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- *  A print statment using printf 
+ * main - A print statement using printf
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
