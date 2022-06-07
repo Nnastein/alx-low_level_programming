@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print combo of three digits.
+ * main - print combo of three digitsi.
  *
- * Description: the three digits must be different
+ * Description: the three digits must be different.
  *
  * Return: Alwyas 0 (Success)
  */
@@ -25,7 +25,6 @@ int main(void)
 				putchar(i);
 				putchar(j);
 				putchar(k);
-				
 				if (i < 55 || j < 56 || k < 57)
 				{
 					putchar(44);
