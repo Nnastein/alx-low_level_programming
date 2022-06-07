@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print combo of three digits
+ * main - print combo of three digits.
  *
  * Description: the three digits must be different
  *
