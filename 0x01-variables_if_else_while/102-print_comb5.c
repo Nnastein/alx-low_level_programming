@@ -18,10 +18,10 @@ int main(void)
 		j = 48;
 		while (j < 58)
 		{
-			k = 48;
+			m = j + 1;
+			k = i;
 			while (k < 58)
 			{
-				m = 49;
 				while (m < 58)
 				{
 					putchar(i);
@@ -37,6 +37,7 @@ int main(void)
 					}
 					m++;
 				}
+				m = 48;
 				k++;
 			}
 
