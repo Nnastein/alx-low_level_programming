@@ -6,7 +6,7 @@
  *
  * Description - print without s=using printf or putchar
  *
- * Return (1) Success
+ * Return: Always 1 (Success)
  */
 
 int main(void)
