@@ -3,6 +3,8 @@
 /**
  * main - print _putchar
  *
+ * Description - prints using putchar
+ *
  * Return 0 (Success)
  */
 
@@ -16,6 +18,7 @@ int main(void)
 	{
 		putchar(word[i]);
 	}
+	putchar(10);
 
 	return (0);
 }
