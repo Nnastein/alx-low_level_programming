@@ -3,7 +3,7 @@
 /**
  * main - print _putchar
  *
- * Return 0 Always
+ * Return 0 (Success)
  */
 
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 	{
-		putchar(word[i]);
+		_putchar(word[i]);
 	}
 
 	return (0);
