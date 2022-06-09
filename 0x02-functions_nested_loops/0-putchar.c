@@ -10,11 +10,11 @@
 
 int main(void)
 {
-	char word[10] = "_putchar";
+	char word[] = "_putchar";
 
-	int i = 0;
+	int i = 1;
 
-	for (i = 0; i < 9; i++)
+	for (i = 1; i < 9; i++)
 	{
 		putchar(word[i]);
 	}
