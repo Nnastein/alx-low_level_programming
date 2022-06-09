@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * print_sign - prints the ign of a number
- * @n: n is a number
+ * print_sign - prints the sign
  *
- * Return: an integer
+ * @n: a number
+ *
+ * Description - Wo
+ *
+ * Return: int
  */
 
 int print_sign(int n)
