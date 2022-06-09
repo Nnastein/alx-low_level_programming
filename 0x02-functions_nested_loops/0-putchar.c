@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include "stdio.h"
 
 /**
  * main - print _putchar
  *
  * Description - prints using putchar
  *
- * Return 0 (Success)
+ * Return: 0 (Success)
  */
 
 int main(void)
