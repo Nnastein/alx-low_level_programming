@@ -30,12 +30,12 @@ void jack_bauer(void)
 					}
 					else
 					{
-						putchar(i);
-						putchar(j);
-						putchar(58);
-						putchar(k);
-						putchar(l);
-						putchar(10);
+						_putchar(i);
+						_putchar(j);
+						_putchar(58);
+						_putchar(k);
+						_putchar(l);
+						_putchar(10);
 					}
 					l++;
 				}
@@ -45,6 +45,4 @@ void jack_bauer(void)
 		}
 		i++;
 	}
-
-	return (0);
 }
