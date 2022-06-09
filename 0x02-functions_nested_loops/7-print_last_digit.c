@@ -1,8 +1,10 @@
 #include "main.h"
 
-/**\
+/**
  * print_last_digit - prints the last digit
  * @n: n is a number
+ *
+ * Description - prints last digit
  *
  * Return: an integer
  */
