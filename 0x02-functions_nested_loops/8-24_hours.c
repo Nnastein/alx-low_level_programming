@@ -5,7 +5,7 @@
  *
  * Description - prints 00:00 to 23:59
  *
- * Return: an integer
+ * Return: void
  */
 
 void jack_bauer(void)
