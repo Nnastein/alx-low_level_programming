@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/** main - print _putchar
+/**
+ * main - print _putchar
  *
  * Return 0 Always
  */
@@ -15,7 +16,6 @@ int main(void)
 	{
 		putchar(word[i]);
 	}
-	putchar('\n');
 
 	return (0);
 }
