@@ -3,7 +3,7 @@
 /**
  * _isupper - whatever
  * @c : checks the case
- * 
+ *
  * Return: 0 or 1
  */
 
