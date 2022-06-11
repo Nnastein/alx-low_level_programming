@@ -21,7 +21,6 @@ void print_diagonal(int n)
 
 			if (b < n-1)
 			{
-
 				int a;
 
 				a = 0;
@@ -31,7 +30,6 @@ void print_diagonal(int n)
 					a++;
 				}
 			}
-
 			b++;
 		}
 	}
