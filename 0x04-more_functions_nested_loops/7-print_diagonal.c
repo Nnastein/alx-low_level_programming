@@ -19,12 +19,12 @@ void print_diagonal(int n)
 			_putchar(92);
 			_putchar(10);
 
-			if (b < n-1)
+			if (b < (n-1))
 			{
 				int a;
 
 				a = 0;
-				while (a < b+1)
+				while (a < (b+1))
 				{
 					_putchar(32);
 					a++;
