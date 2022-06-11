@@ -21,14 +21,14 @@ void print_diagonal(int n)
 			if (b < n-1)
 			{
 
-			int a;
+				int a;
 
-			a = 0;
-			while (a <= b)
-			{
-				_putchar(32);
-				a++;
-			}
+				a = 0;
+				while (a <= b)
+				{
+					_putchar(32);
+					a++;
+				}
 			}
 
 			b++;
