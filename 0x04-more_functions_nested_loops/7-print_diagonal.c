@@ -25,17 +25,17 @@ void print_diagonal(int n)
 				/*while (a < (b+1))*/
 				while (a < b)
 				{
-					_putchar(32);
+					_putchar(' ');
 					a++;
 				}
-				_putchar(92);
-				_putchar(10);
+				_putchar('\\');
+				_putchar('\n');
 			/*}*/
-			b++;
+				b++;
 		}
 	}
 	else
 	{
-		_putchar(10);
+		_putchar('\n');
 	}
 }
