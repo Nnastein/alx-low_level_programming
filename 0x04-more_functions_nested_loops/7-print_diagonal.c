@@ -35,7 +35,7 @@ void print_diagonal(int n)
 			b++;
 		}
 	}
-	else
+	else if (n <= 0)
 	{
 		_putchar(10);
 	}
