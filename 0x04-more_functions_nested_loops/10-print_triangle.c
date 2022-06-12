@@ -15,23 +15,23 @@ void print_triangle(int size)
 	if (size > 0)
 	{
 		b = 0;
-		while (b < n)
+		while (b < size)
 		{
 			/*_putchar(92);*/
 			/*_putchar(10);*/
 			/*if (b < (n-1))*/
 			/*{*/
-				a = 0;
+			a = 1;
 				/*while (a < (b+1))*/
-				while (a < size)
-				{
-					_putchar(' ');
-					a++;
-				}
-				_putchar('\\');
-				_putchar('\n');
+			while (a < size-b)
+			{
+				_putchar(' ');
+				a++;
+			}
+			_putchar('#');
+			_putchar('\n');
 			/*}*/
-				b++;
+			b++;
 		}
 	}
 	else
