@@ -15,7 +15,7 @@ char *cap_string(char *)
 
 	while (s[i] != '\0')
 	{
-		if ((s[i] == ' ' || s[i] == '\n' || s[i] == '\t' || s[i] == '.' || (s[i] >= '0' && s[i] <= '9')) && (s[i+1] >= 'a' && s[i+1] <= 'z'))
+		if ((s[i] == ' ' || s[i] == '\n' || s[i] == '\t' || s[i] == '.') && (s[i+1] >= 'a' && s[i+1] <= 'z'))
 		{
 			position = s[i+1] - 'a';
 			s[i+1] = ('A' + position);
