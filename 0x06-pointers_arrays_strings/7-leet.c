@@ -7,7 +7,7 @@
  * Return: char
  */
 
-char *leet(char *)
+char *leet(char)
 {
 	int i;
 
@@ -24,5 +24,6 @@ char *leet(char *)
 		if (s[i] == 'l' || s[i] == 'L')
 			s[i] = '1';
 	}
+
 	return (s);
 }
