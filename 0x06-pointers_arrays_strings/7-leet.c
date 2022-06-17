@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - Caps all words
+ * leet - Encodes a string
  * @s: string
  *
  * Return: char
@@ -9,8 +9,9 @@
 
 char *leet(char *)
 {
-	int i = 0;
+	int i;
 
+	i = 0;
 	while (s[i] != '\0')
 	{
 		if (s[i] == 'a' || s[i] == 'A')
