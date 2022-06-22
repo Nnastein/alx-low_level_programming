@@ -2,29 +2,32 @@
 #include <stdio.h>
 
 /**
- * strchr - locates a character in a string.
- * @s: string
- * @c: character
+ * _strspn - locates a character in a string.
+ * @s: string array
+ * @accept: another string
  *
  * Return: Char pointer s.
  */
 
-char *_strchr(char *s, char c)
+unsigned int _strspn(char *s, char *accept)
 {
 	int i;
+	unsigned int num;
 
 	i = 0;
-	while (*(s + i) != '\0')
+	num = 0;
+	while (s[i] != ' ')
 	{
-		if (*(s + i) == c)
+		j = 0;
+		while (accept[j] != '\0')
 		{
-			return (s + i);
+			if (s[i] == accept[j])
+			{
+				num = num + 1;
+			}
+			j++;
 		}
 		i++;
 	}
-	if (c == '\0')
-	{
-		return (s + i);
-	}
-	return (NULL);
+	return (num);
 }
