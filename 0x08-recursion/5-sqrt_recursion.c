@@ -16,7 +16,7 @@ int checker(int square, int i)
 	else if (i > square / i)
 		return (checker(square, i - 1));
 	else if (i < square / i)
-		return (checkrt(square, i + 1));
+		return (checker(square, i + 1));
 	else
 		return (-1);
 }
