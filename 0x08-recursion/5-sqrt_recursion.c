@@ -22,13 +22,13 @@ int checker(int square, int i)
 }
 
 /**
- * is_prime_number - returns 1 if prime and 0 otherwise
+ * _sqrt_recursion - returns 1 if prime and 0 otherwise
  * @n: num
  *
  * Return: int;
  */
 
-int is_prime_number(int n)
+int _sqrt_recursion(int n)
 {
 	int s;
 
