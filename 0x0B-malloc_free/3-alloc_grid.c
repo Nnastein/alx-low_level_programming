@@ -21,6 +21,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	else if (grid != NULL)
 		free(grid);
+	/* everything is freeed. Checker 7 */
 
 	for (i = 0; i < height; i++)
 	{
