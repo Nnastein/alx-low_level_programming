@@ -12,15 +12,16 @@ int sum_them_all(const unsigned int n, ...)
 	if (n != 0)
 	{
 		va_list ap;
-		int i, m, sum;
+		unsigned int i;
+		int sum;
 
 		va_start(ap, n);
 		sum = 0;
-		for (i = n; i < 10000; i = va_arg(ap, int))
-			sum = sum + i;
+		for (i = 0; i < n; i++)
+			sum += va_arg(ap, int);
 		va_end(ap);
-		m = sum - n;
-		return (m);
+
+		return (sum);
 	}
 	return (0);
 }
